@@ -1,0 +1,40 @@
+kreirati bazu app
+
+u Console izvrtiti
+
+CREATE TABLE `user_info` (
+  `id` int(15) NOT NULL PRIMARY KEY,
+  `name` varchar (255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+)
+
+CREATE TABLE `user_call` (
+  `id` int(15) NOT NULL PRIMARY KEY,
+  `name` varchar (255) NOT NULL,
+  `time` varchar(255) NOT NULL,
+  `message` varchar(255) NOT NULL,
+)
+
+CREATE TABLE `user_call` (
+  `id` int(15) NOT NULL PRIMARY KEY,
+  `name` varchar (255) NOT NULL,
+  `time` varchar(255) NOT NULL,
+  `message` varchar(255) NOT NULL,
+)
+
+CREATE TABLE `dnevni_raspored` (
+  `id` int(15) NOT NULL PRIMARY KEY,
+  `name` varchar (255) NOT NULL,
+  `time` varchar(255) NOT NULL,
+  `message` varchar(255) NOT NULL,
+)
+
+CREATE TABLE `admin_answer` (
+  `id` int(15) NOT NULL PRIMARY KEY,
+  `name` varchar (255) NOT NULL,
+  `time` varchar(255) NOT NULL,
+  `message` varchar(255) NOT NULL,
+)
+
+
